@@ -49,14 +49,14 @@ body{
     margin: 10px;
 }
 
-.section-container{
+.main-container{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
 }
 
-.section-container .info-user{
+.main-container .info-user{
     display: flex;
     flex-direction: column;
     background: #4c956c;
@@ -65,11 +65,11 @@ body{
     padding: 20px;
 }
 
-.section-container .info-user .info-user__title{
+.main-container .info-user .info-user__title{
     text-align: center;
 }
 
-.section-container .info-user .info-user__list{
+.main-container .info-user .info-user__list{
     font-size: 18px;
     line-height: 1.75;
 }
@@ -109,7 +109,7 @@ body{
         margin: 8px;
     }
 
-    .section-container .info-user{
+    .main-container .info-user{
         display: flex;
         flex-direction: column;
         background: #4c956c;
@@ -141,7 +141,7 @@ body{
         margin: 2px;
     }
 
-    .section-container .info-user{
+    .main-container .info-user{
         display: flex;
         flex-direction: column;
         background: #4c956c;
