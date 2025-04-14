@@ -49,6 +49,12 @@ body{
     margin: 10px;
 }
 
+.header-container .btn-link:hover {
+    background: #2c6e49;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
 .main-container{
     display: flex;
     justify-content: space-between;
